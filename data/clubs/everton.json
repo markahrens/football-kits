@@ -1,9 +1,9 @@
 {
   "id":"everton",
   "name":"Everton FC",
-  "seasons":{
+  "seasons":[{
     "year":"16-17",
-    "league","epl",
+    "league":"epl",
     "primarySponsor":"Chang",
     "primarySponsorDesc":"A Thai beer, produced by ThaiBev",
     "primaryColor":"1B3E96",
@@ -17,5 +17,5 @@
     "primaryColor":"1B3E96",
     "awayColor":"C6C9DC",
     "secondaryColor":"40422A"
-  }
+  }]
 }
