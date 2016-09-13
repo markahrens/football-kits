@@ -4,7 +4,7 @@
   "description": "History of Football Kits",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --host 0.0.0.0 --port 4000 --content-base ."
+    "start": "webpack-dev-server --inline --host 0.0.0.0 --port 4000 --content-base . --history-api-fallback"
   },
   "keywords": [
     "football",
