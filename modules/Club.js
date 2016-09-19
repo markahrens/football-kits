@@ -1,13 +1,11 @@
-// modules/Home.js
 import React from 'react'
 
 export default React.createClass({
   render() {
     return (
       <div>
-        <p>Random Club</p>
+        <h2>{this.props.params.countryCode} - {this.props.params.clubSlug}</h2>
       </div>
-    );
-
+    )
   }
 })

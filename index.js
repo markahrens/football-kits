@@ -6,8 +6,8 @@ render(<App/>, document.getElementById('app'))
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
 import About from './modules/About'
-import Repos from './modules/Repos'
-import Repo from './modules/Repo'
+import Clubs from './modules/Clubs'
+import Club from './modules/Club'
 import Home from './modules/Home'
 
 render((
@@ -15,8 +15,8 @@ render((
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
 
-      <Route path="/repos" component={Repos}>
-        <Route path="/repos/:userName/:repoName" component={Repo}/>
+      <Route path="/clubs" component={Clubs}>
+        <Route path="/clubs/:countryCode/:clubSlug" component={Club}/>
       </Route>
       <Route path="/about" component={About}/>
     </Route>
