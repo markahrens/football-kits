@@ -1,4 +1,4 @@
-clubs:
+{"clubs":
   [{
     "id":"everton",
     "country":"GB",
@@ -35,3 +35,4 @@ clubs:
       "secondaryColor":"E5CF4F"
     }]
   }]
+}
