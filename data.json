@@ -1,4 +1,67 @@
 {"clubs":
-  [
+  [{
+  "id":"asante-kotoko",
+  "country":"GH",
+  "name":"Asante Kotoko",
+  "seasons":[{
+    "year":"16-17",
+    "league":"gpl",
+    "primarySponsor":"MTN",
+    "primarySponsorDesc":"Mobile phone and data service provider",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  }]
+}
+,{
+  "id":"everton",
+  "country":"GB",
+  "name":"Everton FC",
+  "seasons":[{
+    "year":"16-17",
+    "league":"epl",
+    "primarySponsor":"Chang",
+    "primarySponsorDesc":"A Thai beer, produced by ThaiBev",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  },{
+    "year":"15-16",
+    "league":"epl",
+    "primarySponsor":"Chang",
+    "primarySponsorDesc":"A Thai beer, produced by ThaiBev",
+    "primaryColor":"1B3E96",
+    "awayColor":"C6C9DC",
+    "secondaryColor":"40422A"
+  }]
+}
+,{
+  "id":"manchester-united",
+  "country":"GB",
+  "name":"Manchester United",
+  "seasons":[{
+    "year":"16-17",
+    "league":"epl",
+    "primarySponsor":"Chevrolet",
+    "primarySponsorDesc":"US based car company",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  }]
+}
+,{
+  "id":"portland-timbers",
+  "country":"US",
+  "name":"Portland Timbers",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "primarySponsor":"Alaska Airlines",
+    "primarySponsorDesc":"Regional airline in Pacific Northwest",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  }]
+}
   ]
 }

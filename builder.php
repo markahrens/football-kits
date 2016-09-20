@@ -34,7 +34,7 @@ $twig = new Twig_Environment($loader, array(
 
 $clubTemplate = $twig->loadTemplate('club.html');
 
-$json = file_get_contents('test.json');
+$json = file_get_contents('data.json');
 $data = json_decode($json, true);
 $data = $data["clubs"];
 usort($data, function($a, $b) {
