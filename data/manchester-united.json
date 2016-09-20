@@ -1,0 +1,14 @@
+{
+  "id":"manchester-united",
+  "country":"GB",
+  "name":"Manchester United",
+  "seasons":[{
+    "year":"16-17",
+    "league":"epl",
+    "primarySponsor":"Chevrolet",
+    "primarySponsorDesc":"US based car company",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  }]
+}

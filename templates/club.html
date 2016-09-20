@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ club.name }} | Football Kits</title>
+    </head>
+    <body>
+        <div id="content">
+            <h2>{{ club.name }}</h2>
+            <h3>Seasons</h3>
+            {% for season in club.seasons %}
+              <h4>{{ season.year }}</h4>
+              <div style="width: 100px; height: 100px; background-color:{{ season.primaryColor }}"></div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
