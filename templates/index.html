@@ -13,7 +13,7 @@
             <h3>{{ club.country }}</h3>
             {% set country = club.country %}
           {% endif %}
-          <li>{{ club.name }}</li>
+          <li><a href="{{ club.country|lower }}/{{ club.id }}.html">{{ club.name }}</a></li>
         {% endfor %}
       </ul>
     </div>

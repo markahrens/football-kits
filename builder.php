@@ -25,14 +25,7 @@ $fh = fopen($dataFile, 'w'); // or die("error");
 fwrite($fh, $dataFileContents);
 
 
-require_once 'vendor/autoload.php';
-Twig_Autoloader::register();
-
-$loader = new Twig_Loader_Filesystem('templates');
-$twig = new Twig_Environment($loader, array(
-));
-
-$clubTemplate = $twig->loadTemplate('club.html');
+// Building the site
 
 $json = file_get_contents('data.json');
 $data = json_decode($json, true);
@@ -44,8 +37,20 @@ usort($data, function($a, $b) {
     return strcmp($a["country"], $b["country"]);
 });
 
+require_once 'vendor/autoload.php';
+Twig_Autoloader::register();
+
+$loader = new Twig_Loader_Filesystem('templates');
+$twig = new Twig_Environment($loader);
+
+$clubTemplate = $twig->loadTemplate('club.html');
+
 foreach($data as $club){
-  $clubFile = "build/".$club["id"].".html"; // or .php
+  if (!is_dir("build/".strtolower($club["country"])))
+  {
+      mkdir("build/".strtolower($club["country"]), 0755, true);
+  }
+  $clubFile = "build/".strtolower($club["country"])."/".$club["id"].".html"; // or .php
   $fh = fopen($clubFile, 'w'); // or die("error");
   $page = $clubTemplate->render(array('club' => $club));
   fwrite($fh, $page);
