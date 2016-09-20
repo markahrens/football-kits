@@ -1,0 +1,14 @@
+{
+  "id":"asante-kotoko",
+  "country":"GH",
+  "name":"Asante Kotoko",
+  "seasons":[{
+    "year":"16-17",
+    "league":"gpl",
+    "primarySponsor":"MTN",
+    "primarySponsorDesc":"Mobile phone and data service provider",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  }]
+}

@@ -1,0 +1,14 @@
+{
+  "id":"portland-timbers",
+  "country":"US",
+  "name":"Portland Timbers",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "primarySponsor":"Alaska Airlines",
+    "primarySponsorDesc":"Regional airline in Pacific Northwest",
+    "primaryColor":"1B3E96",
+    "awayColor":"121318",
+    "secondaryColor":"E5CF4F"
+  }]
+}

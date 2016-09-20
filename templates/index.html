@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Football Kits</title>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Clubs</h1>
+      <ul>
+        {% set country = '' %}
+        {% for club in clubs %}
+          {% if club.country != country %}
+            <h3>{{ club.country }}</h3>
+            {% set country = club.country %}
+          {% endif %}
+          <li>{{ club.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
