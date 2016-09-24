@@ -9,7 +9,11 @@
             <h3>Seasons</h3>
             {% for season in club.seasons %}
               <h4>{{ season.year }}</h4>
-              <div style="width: 100px; height: 100px; background-color:{{ season.primaryColor }}"></div>
+              <svg xmlns="http://www.w3.org/2000/svg">
+                <polygon points="10,10 40,10 60,20 80,10 110,10 110,150 10,150" stroke="none" fill="#{{ season.primaryColor }}"/>
+                <polyline points="10,10 40,10 60,20 80,10 110,10" stroke="#000000" fill="none" />
+                <polyline points="110,150 10,150" stroke="#000000" fill="none" />
+              </svg>
             {% endfor %}
         </div>
     </body>
