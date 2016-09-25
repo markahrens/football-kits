@@ -5,10 +5,19 @@
   "seasons":[{
     "year":"16-17",
     "league":"mls",
-    "primarySponsor":"Alaska Airlines",
-    "primarySponsorDesc":"Regional airline in Pacific Northwest",
-    "primaryColor":"1B3E96",
-    "awayColor":"121318",
-    "secondaryColor":"E5CF4F"
+    "sponsor":"Alaska Airlines",
+    "sponsorDesc":"Regional airline in Pacific Northwest",
+    "primary":{
+      "color":"1B3E96",
+      "sponsorColor":"FFFFFF"
+    },
+    "away":{
+      "color":"121318",
+      "sponsorColor":"FFFFFF"
+    },
+    "secondary":{
+      "color":"E5CF4F",
+      "sponsorColor":"FFFFFF"
+    }
   }]
 }

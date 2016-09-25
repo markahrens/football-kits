@@ -5,18 +5,36 @@
   "seasons":[{
     "year":"16-17",
     "league":"epl",
-    "primarySponsor":"Chang",
-    "primarySponsorDesc":"A Thai beer, produced by ThaiBev",
-    "primaryColor":"1B3E96",
-    "awayColor":"121318",
-    "secondaryColor":"E5CF4F"
+    "sponsor":"Chang",
+    "sponsorDesc":"A Thai beer, produced by ThaiBev",
+    "primary":{
+      "color":"1B3E96",
+      "sponsorColor":"FFFFFF"
+    },
+    "away":{
+      "color":"121318",
+      "sponsorColor":"FFFFFF"
+    },
+    "secondary":{
+      "color":"E5CF4F",
+      "sponsorColor":"FFFFFF"
+    }
   },{
     "year":"15-16",
     "league":"epl",
-    "primarySponsor":"Chang",
+    "sponsor":"Chang",
     "primarySponsorDesc":"A Thai beer, produced by ThaiBev",
-    "primaryColor":"1B3E96",
-    "awayColor":"C6C9DC",
-    "secondaryColor":"40422A"
+    "primary":{
+      "color":"1B3E96",
+      "sponsorColor":"FFFFFF"
+    },
+    "away":{
+      "color":"C6C9DC",
+      "sponsorColor":"121212"
+    },
+    "secondary":{
+      "color":"40422A",
+      "sponsorColor":"ff944d"
+    }
   }]
 }

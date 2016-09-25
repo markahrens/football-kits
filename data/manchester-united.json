@@ -5,10 +5,19 @@
   "seasons":[{
     "year":"16-17",
     "league":"epl",
-    "primarySponsor":"Chevrolet",
-    "primarySponsorDesc":"US based car company",
-    "primaryColor":"1B3E96",
-    "awayColor":"121318",
-    "secondaryColor":"E5CF4F"
+    "sponsor":"Chevrolet",
+    "sponsorDesc":"US based car company",
+    "primary":{
+      "color":"1B3E96",
+      "sponsorColor":"FFFFFF"
+    },
+    "away":{
+      "color":"121318",
+      "sponsorColor":"FFFFFF"
+    },
+    "secondary":{
+      "color":"E5CF4F",
+      "sponsorColor":"FFFFFF"
+    }
   }]
 }

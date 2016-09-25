@@ -5,10 +5,15 @@
   "seasons":[{
     "year":"16-17",
     "league":"gpl",
-    "primarySponsor":"MTN",
-    "primarySponsorDesc":"Mobile phone and data service provider",
-    "primaryColor":"1B3E96",
-    "awayColor":"121318",
-    "secondaryColor":"E5CF4F"
+    "sponsor":"MTN",
+    "sponsorDesc":"Mobile phone and data service provider",
+    "primary":{
+      "color":"ff1a1a",
+      "sponsorColor":"FFFFFF"
+    },
+    "away":{
+      "color":"121318",
+      "sponsorColor":"FFFFFF"
+    }
   }]
 }
