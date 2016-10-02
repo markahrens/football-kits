@@ -43,31 +43,10 @@ Twig_Autoloader::register();
 $loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader);
 
-$filter = new Twig_SimpleFilter('bobber', function ($string) {
-    $g = intval('0x'.dechex(127397 + ord("G")));
-    $b = "\u".dechex(127397 + ord("B"));
-    
-    if (!is_int($g)) {
-        exit("$g is not integer\n");
-    }
-
-    // UTF-8 prohibits characters between U+D800 and U+DFFF
-    // https://tools.ietf.org/html/rfc3629#section-3
-    //
-    // Q: Are there any 16-bit values that are invalid?
-    // http://unicode.org/faq/utf_bom.html#utf16-7
-
-    if ($g < 0 || (0xD7FF < $g && $g < 0xE000) || 0x10FFFF < $g) {
-        exit("$cp is out of range\n");
-    }
-
-    if ($g < 0x10000) {
-        return json_decode('"\u'.bin2hex(pack('n', $g)).'"');
-    }
-    $lead = 0xD800 - (0x10000 >> 10) + ($g >> 10);
-    echo(bin2hex(pack('n', $lead)));
-    $trail = 0xDC00 + ($g & 0x3FF);
-    return json_decode('"\u'.bin2hex(pack('n', $lead)).'\u'.bin2hex(pack('n', $trail)).'"'); 
+$filter = new Twig_SimpleFilter('flagify', function ($code) {
+  $country = str_split($code);
+  return json_decode('"'.letterLookup($country[0]).letterLookup($country[1]).'"'); 
+ 
 });
 $twig->addFilter($filter);
 
@@ -91,3 +70,35 @@ $fh = fopen($indexFile, 'w'); // or die("error");
 $indexTemplate = $twig->loadTemplate('index.html');
 $index = $indexTemplate->render(array('clubs' => $data));
 fwrite($fh, $index);
+
+function letterLookup($letter){
+  $letters = array(
+    "A" => "\uD83C\uDDE6",
+    "B" => "\uD83C\uDDE7",
+    "C" => "\uD83C\uDDE8",
+    "D" => "\uD83C\uDDE9",
+    "E" => "\uD83C\uDDEA",
+    "F" => "\uD83C\uDDEB",
+    "G" => "\uD83C\uDDEC",
+    "H" => "\uD83C\uDDED",
+    "I" => "\uD83C\uDDEE",
+    "J" => "\uD83C\uDDEF",
+    "K" => "\uD83C\uDDF0",
+    "L" => "\uD83C\uDDF1",
+    "M" => "\uD83C\uDDF2",
+    "N" => "\uD83C\uDDF3",
+    "O" => "\uD83C\uDDF4",
+    "P" => "\uD83C\uDDF5",
+    "Q" => "\uD83C\uDDF6",
+    "R" => "\uD83C\uDDF7",
+    "S" => "\uD83C\uDDF8",
+    "T" => "\uD83C\uDDF9",
+    "U" => "\uD83C\uDDFA",
+    "V" => "\uD83C\uDDFB",
+    "W" => "\uD83C\uDDFC",
+    "X" => "\uD83C\uDDFD",
+    "Y" => "\uD83C\uDDFE",
+    "Z" => "\uD83C\uDDFF",
+  );
+  return $letters[$letter];
+}

@@ -10,12 +10,12 @@
         {% set country = '' %}
         {% for club in clubs %}
           {% if club.country != country %}
-            <h3>{{ club.country }}</h3>
+            <h3 style="font-size: 2rem;">{{ club.country|flagify }}</h3>
             {% set country = club.country %}
           {% endif %}
           <li><a href="{{ club.country|lower }}/{{ club.id }}.html">{{ club.name }}</a></li>
         {% endfor %}
-        {{ 'Twig'|bobber }}
+        
       </ul>
     </div>
   </body>
