@@ -19,6 +19,9 @@
                   <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
                   <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
                   <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
+                  {% if season.primary.addedDesign is defined %}
+                    {{ season.primary.addedDesign|raw}}
+                  {% endif %}
                   <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ season.primary.sponsorColor }}";>{{ season.sponsor }}</text>
                 </svg>
               {% endif %}
