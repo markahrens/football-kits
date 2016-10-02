@@ -2,6 +2,9 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ club.name }} | Football Kits</title>
+        <style>
+        svg {width: 400px; height: auto;}
+        </style>
     </head>
     <body>
         <div id="content">
@@ -11,7 +14,7 @@
               <h4>{{ season.year }}</h4>
               {% if season.primary is defined %}
                 <p>Primary Kit</p>
-                <svg xmlns="http://www.w3.org/2000/svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
                   <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ season.primary.color }}"/>
                   <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ season.primary.color }}"></polygon>
                   <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ season.primary.color }}"></polygon>
