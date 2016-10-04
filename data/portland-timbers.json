@@ -5,20 +5,20 @@
   "seasons":[{
     "year":"16-17",
     "league":"mls",
-    "sponsor":"Alaska Airlines",
-    "sponsorDesc":"Regional airline in Pacific Northwest",
-    "primary":{
-      "color":"004812",
-      "sponsorColor":"004812",
-      "addedDesign":"<polygon points=\"50,70 100,60 150,70 150,90 100,80 50,90\" stroke=\"none\" fill=\"#B8C050\"></polygon><polygon points=\"50,60 100,50 150,60 150,70 100,60 50,70\" stroke=\"none\" fill=\"#FFFFFF\"></polygon><polygon points=\"50,90 100,80 150,90 150,100 100,90 50,100\" stroke=\"none\" fill=\"#FFFFFF\"></polygon>"
-    },
-    "away":{
-      "color":"121318",
-      "sponsorColor":"FFFFFF"
-    },
-    "secondary":{
-      "color":"E5CF4F",
-      "sponsorColor":"FFFFFF"
-    }
+    "kits":[
+      {
+        "type":"Primary",
+        "color":"004812",
+        "sponsor":"Alaska",
+        "sponsorColor":"004812",
+        "addedDesign":"<polygon points=\"50,70 100,60 150,70 150,90 100,80 50,90\" stroke=\"none\" fill=\"#B8C050\"></polygon><polygon points=\"50,60 100,50 150,60 150,70 100,60 50,70\" stroke=\"none\" fill=\"#FFFFFF\"></polygon><polygon points=\"50,90 100,80 150,90 150,100 100,90 50,100\" stroke=\"none\" fill=\"#FFFFFF\"></polygon>"
+      },
+      {
+        "type":"Away",
+        "color":"121318",
+        "sponsor":"Alaska Airlines",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
   }]
 }

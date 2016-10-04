@@ -1,5 +1,19 @@
 <?php
 
+// Building the style sheet
+
+require "vendor/leafo/scssphp/scss.inc.php";
+$scss = new scssc();
+$scss->setImportPaths("scss");
+$styles = $scss->compile('@import "styles.scss"');
+if (!is_dir("build/css")){
+  mkdir("build/css", 0755, true);
+}
+$cssFile = "build/css/styles.css";
+$fh = fopen($cssFile, 'w'); // or die("error");
+fwrite($fh, $styles);
+
+
 // Building the Data File
 $dataFile = "data.json";
 

@@ -5,36 +5,48 @@
   "seasons":[{
     "year":"16-17",
     "league":"epl",
-    "sponsor":"Chang",
-    "sponsorDesc":"A Thai beer, produced by ThaiBev",
-    "primary":{
-      "color":"1B3E96",
-      "sponsorColor":"FFFFFF"
-    },
-    "away":{
-      "color":"121318",
-      "sponsorColor":"FFFFFF"
-    },
-    "secondary":{
-      "color":"E5CF4F",
-      "sponsorColor":"FFFFFF"
-    }
+    "kits":[
+      {
+        "type":"Primary",
+        "color":"1B3E96",
+        "sponsor":"Chang",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "color":"121318",
+        "sponsor":"Chang",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Secondary",
+        "color":"E5CF4F",
+        "sponsor":"Chang",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
   },{
     "year":"15-16",
     "league":"epl",
-    "sponsor":"Chang",
-    "primarySponsorDesc":"A Thai beer, produced by ThaiBev",
-    "primary":{
-      "color":"1B3E96",
-      "sponsorColor":"FFFFFF"
-    },
-    "away":{
-      "color":"C6C9DC",
-      "sponsorColor":"121212"
-    },
-    "secondary":{
-      "color":"40422A",
-      "sponsorColor":"ff944d"
-    }
+    "kits":[
+      {
+        "type":"Primary",
+        "color":"1B3E96",
+        "sponsor":"Chang",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "color":"C6C9DC",
+        "sponsor":"Chang",
+        "sponsorColor":"121212"
+      },
+      {
+        "type":"Secondary",
+        "color":"40422A",
+        "sponsor":"Chang",
+        "sponsorColor":"ff944d"
+      }
+    ]
   }]
 }

@@ -5,15 +5,19 @@
   "seasons":[{
     "year":"16-17",
     "league":"gpl",
-    "sponsor":"MTN",
-    "sponsorDesc":"Mobile phone and data service provider",
-    "primary":{
-      "color":"ff1a1a",
-      "sponsorColor":"FFFFFF"
-    },
-    "away":{
-      "color":"121318",
-      "sponsorColor":"FFFFFF"
-    }
+    "kits":[
+      {
+        "type":"Primary",
+        "color":"ff1a1a",
+        "sponsor":"MTN",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "color":"121318",
+        "sponsor":"MTN",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
   }]
 }

@@ -2,58 +2,38 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ club.name }} | Football Kits</title>
-        <style>
-        svg {width: 400px; height: auto;}
-        </style>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
     </head>
     <body>
         <div id="content">
             <h2>{{ club.name }}</h2>
+            {% include 'test.html' %}
             <h3>Seasons</h3>
             {% for season in club.seasons %}
               <h4>{{ season.year }}</h4>
-              {% if season.primary is defined %}
-                <p>Primary Kit</p>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
-                  <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ season.primary.color }}"/>
-                  <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ season.primary.color }}"></polygon>
-                  <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ season.primary.color }}"></polygon>
-                  <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
-                  <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
-                  <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
-                  <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
-                  {% if season.primary.addedDesign is defined %}
-                    {{ season.primary.addedDesign|raw}}
-                  {% endif %}
-                  <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ season.primary.sponsorColor }}";>{{ season.sponsor }}</text>
-                </svg>
-              {% endif %}
-              {% if season.away is defined %}
-                <p>Away Kit</p>
-                <svg xmlns="http://www.w3.org/2000/svg">
-                  <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ season.away.color }}"/>
-                  <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ season.away.color }}"></polygon>
-                  <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ season.away.color }}"></polygon>
-                  <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
-                  <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
-                  <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
-                  <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
-                  <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ season.away.sponsorColor }}";>{{ season.sponsor }}</text>
-                </svg>
-              {% endif %}
-              {% if season.secondary is defined %}
-                <p>Secondary Kit</p>
-                <svg xmlns="http://www.w3.org/2000/svg">
-                  <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ season.secondary.color }}"/>
-                  <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ season.secondary.color }}"></polygon>
-                  <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ season.secondary.color }}"></polygon>
-                  <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
-                  <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
-                  <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
-                  <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
-                  <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ season.secondary.sponsorColor }}";>{{ season.sponsor }}</text>
-                </svg>
-              {% endif %}
+              <div class="season">
+                {% for kit in season.kits %}
+                  <div>
+                    <p>{{ kit.type }} Kit</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.color }}"></polygon>
+                      <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.color }}"></polygon>
+                      <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.color }}"></polygon>
+                      <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
+                      <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
+                      <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
+                      <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
+                      {% if kit.addedDesign is defined %}
+                        {{ kit.addedDesign|raw}}
+                      {% endif %}
+                      <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ kit.sponsorColor }}";>{{ kit.sponsor }}</text>
+                    </svg>
+                  </div>
+                {% endfor %}
+
+              
+              </div>
             {% endfor %}
         </div>
     </body>

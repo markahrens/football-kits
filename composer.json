@@ -1,5 +1,6 @@
 {
     "require": {
-        "twig/twig": "~1.0"
+        "twig/twig": "~1.0",
+        "leafo/scssphp": "0.0.12"
     }
 }
