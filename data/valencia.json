@@ -1,0 +1,43 @@
+{
+  "id":"valencia",
+  "country":"ES",
+  "name":"Valencia",
+  "seasons":[{
+    "year":"16-17",
+    "league":"lal",
+    "kits":[
+      {
+        "type":"Primary",
+        "color":"D9D8DE"
+      },
+      {
+        "type":"Away",
+        "color":"19191B"
+      },
+      {
+        "type":"Third",
+        "color":"FB5116"
+      }
+    ]
+  },
+  {
+    "year":"15-16",
+    "league":"lal",
+    "kits":[
+      {
+        "type":"Primary",
+        "color":"D9D8DE"
+      },
+      {
+        "type":"Away",
+        "color":"FDD061"
+      },
+      {
+        "type":"Third",
+        "color":"E8620B",
+        "sponsor":"UN Women",
+        "sponsorColor":"04A9E3"
+      }
+    ]
+  }]
+}

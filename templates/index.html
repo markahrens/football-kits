@@ -4,14 +4,19 @@
     <title>Football Kits</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
-  <body>
+  <body id="home">
+    <nav>
+      <div>
+        <a href="../index.html">Football Kits</a>
+      </div>
+    </nav> 
     <div id="content">
       <h1>Clubs</h1>
       <ul>
         {% set country = '' %}
         {% for club in clubs %}
           {% if club.country != country %}
-            <h3 style="font-size: 2rem;">{{ club.country|flagify }}</h3>
+            <h3>{{ club.country|flagify }}</h3>
             {% set country = club.country %}
           {% endif %}
           <li><a href="{{ club.country|lower }}/{{ club.id }}.html">{{ club.name }}</a></li>

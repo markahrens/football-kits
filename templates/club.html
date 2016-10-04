@@ -5,36 +5,39 @@
         <link rel="stylesheet" type="text/css" href="../css/styles.css">
 
     </head>
-    <body>
-        <div id="content">
-            <h2>{{ club.name }}</h2>
-            {% include 'test.html' %}
-            <h3>Seasons</h3>
-            {% for season in club.seasons %}
-              <h4>{{ season.year }}</h4>
-              <div class="season">
-                {% for kit in season.kits %}
-                  <div>
-                    <p>{{ kit.type }} Kit</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
-                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.color }}"></polygon>
-                      <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.color }}"></polygon>
-                      <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.color }}"></polygon>
-                      <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
-                      <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
-                      <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
-                      <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
-                      {% if kit.addedDesign is defined %}
-                        {{ kit.addedDesign|raw}}
-                      {% endif %}
-                      <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ kit.sponsorColor }}";>{{ kit.sponsor }}</text>
-                    </svg>
-                  </div>
-                {% endfor %}
-
-              
-              </div>
-            {% endfor %}
+    <body id="club">
+      <nav>
+        <div>
+          <a href="../index.html">Football Kits</a>
         </div>
+      </nav> 
+      <div id="content">
+        <h1>{{ club.name }}</h1>
+          {% for season in club.seasons %}
+            <h2>{{ season.year }}</h2>
+            <div class="season">
+              {% for kit in season.kits %}
+                <div>
+                  <p>{{ kit.type }} Kit</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
+                    <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.color }}"></polygon>
+                    <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.color }}"></polygon>
+                    <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.color }}"></polygon>
+                    <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
+                    <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
+                    <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
+                    <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
+                    {% if kit.addedDesign is defined %}
+                      {{ kit.addedDesign|raw}}
+                    {% endif %}
+                    {% if kit.sponsor is defined %}
+                      <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ kit.sponsorColor }}";>{{ kit.sponsor }}</text>
+                    {% endif %}
+                  </svg>
+                </div>
+              {% endfor %}
+            </div>
+        {% endfor %}
+      </div>
     </body>
 </html>
