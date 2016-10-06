@@ -14,22 +14,25 @@ $fh = fopen($cssFile, 'w'); // or die("error");
 fwrite($fh, $styles);
 
 
+$files = read_all_files('data');
+
+
 // Building the Data File
 $dataFile = "data.json";
 
 $dataFileContents = '{"clubs":
   [';
 
-if ($handle = opendir('data')) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry != "." && $entry != "..") {
-          $c = fopen("data/".$entry, "r") or die("Unable to open file!");
-          $dataFileContents .= fread($c,filesize("data/".$entry)) . ',';
-          fclose($c);
-        }
-    }
-    closedir($handle);
+$files = read_all_files('data');
+
+foreach($files['files'] as $file){
+  if ($file != "data/.DS_Store"){
+    $c = fopen($file, "r") or die("Unable to open file!");
+    $dataFileContents .= fread($c,filesize($file)) . ',';
+    fclose($c);
+  }
 }
+
 $dataFileContents = rtrim($dataFileContents, ",");
 
 $dataFileContents .= '  ]
@@ -116,3 +119,34 @@ function letterLookup($letter){
   );
   return $letters[$letter];
 }
+
+function read_all_files($root = '.'){ 
+  $files  = array('files'=>array(), 'dirs'=>array()); 
+  $directories  = array(); 
+  $last_letter  = $root[strlen($root)-1]; 
+  $root  = ($last_letter == '\\' || $last_letter == '/') ? $root : $root.DIRECTORY_SEPARATOR; 
+  
+  $directories[]  = $root; 
+  
+  while (sizeof($directories)) { 
+    $dir  = array_pop($directories); 
+    if ($handle = opendir($dir)) { 
+      while (false !== ($file = readdir($handle))) { 
+        if ($file == '.' || $file == '..') { 
+          continue; 
+        } 
+        $file  = $dir.$file; 
+        if (is_dir($file)) { 
+          $directory_path = $file.DIRECTORY_SEPARATOR; 
+          array_push($directories, $directory_path); 
+          $files['dirs'][]  = $directory_path; 
+        } elseif (is_file($file)) { 
+          $files['files'][]  = $file; 
+        } 
+      } 
+      closedir($handle); 
+    } 
+  } 
+  
+  return $files; 
+} 

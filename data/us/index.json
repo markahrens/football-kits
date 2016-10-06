@@ -1,0 +1,25 @@
+{
+  "id":"index",
+  "country":"US",
+  "name":"US National Team",
+  "seasons":[{
+    "year":"16-17",
+    "league":"fifa",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["000000"],
+        "sponsor":"Barbasol",
+        "sponsorColor":"FCFA68"      
+      },
+      {
+        "type":"Away",
+        "colors":["F8383C","000000"],
+        "design":"wideHoops",
+        "sponsor":"Alaska Airlines",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "id":"columbus-crew",
+  "country":"US",
+  "name":"Columbus Crew",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["000000"],
+        "sponsor":"Barbasol",
+        "sponsorColor":"FCFA68"      
+      },
+      {
+        "type":"Away",
+        "colors":["F8383C","000000"],
+        "design":"wideHoops",
+        "sponsor":"Alaska Airlines",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

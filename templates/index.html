@@ -16,10 +16,12 @@
         {% set country = '' %}
         {% for club in clubs %}
           {% if club.country != country %}
-            <h3>{{ club.country|flagify }}</h3>
+            <h3><a href="{{ club.country|lower }}/index.html">{{ club.country|flagify }}</a></h3>
             {% set country = club.country %}
           {% endif %}
-          <li><a href="{{ club.country|lower }}/{{ club.id }}.html">{{ club.name }}</a></li>
+          {% if club.id != 'index' %}
+            <li><a href="{{ club.country|lower }}/{{ club.id }}.html">{{ club.name }}</a></li>
+          {% endif %}
         {% endfor %}
         
       </ul>
