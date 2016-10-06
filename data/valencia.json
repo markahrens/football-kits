@@ -8,15 +8,18 @@
     "kits":[
       {
         "type":"Primary",
-        "color":"D9D8DE"
+        "design":"solid",
+        "colors":["D9D8DE"]
       },
       {
         "type":"Away",
-        "color":"19191B"
+        "design":"solid",
+        "colors":["19191B"]
       },
       {
         "type":"Third",
-        "color":"FB5116"
+        "design":"solid",
+        "colors":["FB5116"]
       }
     ]
   },
@@ -26,15 +29,18 @@
     "kits":[
       {
         "type":"Primary",
-        "color":"D9D8DE"
+        "design":"solid",
+        "colors":["D9D8DE"]
       },
       {
         "type":"Away",
-        "color":"FDD061"
+        "design":"wideStripes",
+        "colors":["F21822","FFCE5B"]
       },
       {
         "type":"Third",
-        "color":"E8620B",
+        "colors":["E8620B"],
+        "design":"solid",
         "sponsor":"UN Women",
         "sponsorColor":"04A9E3"
       }

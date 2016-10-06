@@ -8,19 +8,22 @@
     "kits":[
       {
         "type":"Primary",
-        "color":"1B3E96",
+        "colors":["1B3E96"],
+        "design":"solid",
         "sponsor":"Chang",
         "sponsorColor":"FFFFFF"
       },
       {
         "type":"Away",
-        "color":"121318",
+        "colors":["121318"],
+        "design":"solid",
         "sponsor":"Chang",
         "sponsorColor":"FFFFFF"
       },
       {
         "type":"Secondary",
-        "color":"E5CF4F",
+        "colors":["E5CF4F"],
+        "design":"solid",
         "sponsor":"Chang",
         "sponsorColor":"FFFFFF"
       }
@@ -31,19 +34,22 @@
     "kits":[
       {
         "type":"Primary",
-        "color":"1B3E96",
+        "colors":["1B3E96"],
+        "design":"solid",
         "sponsor":"Chang",
         "sponsorColor":"FFFFFF"
       },
       {
         "type":"Away",
-        "color":"C6C9DC",
+        "colors":["C6C9DC"],
+        "design":"solid",
         "sponsor":"Chang",
         "sponsorColor":"121212"
       },
       {
         "type":"Secondary",
-        "color":"40422A",
+        "colors":["40422A"],
+        "design":"solid",
         "sponsor":"Chang",
         "sponsorColor":"ff944d"
       }

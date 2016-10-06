@@ -8,13 +8,15 @@
     "kits":[
       {
         "type":"Primary",
-        "color":"ff1a1a",
+        "colors":["ff1a1a"],
+        "design":"solid",
         "sponsor":"MTN",
         "sponsorColor":"FFFFFF"
       },
       {
         "type":"Away",
-        "color":"121318",
+        "colors":["121318"],
+        "design":"solid",
         "sponsor":"MTN",
         "sponsorColor":"FFFFFF"
       }
