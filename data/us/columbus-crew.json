@@ -8,16 +8,16 @@
     "kits":[
       {
         "type":"Primary",
-        "design":"solid",
-        "colors":["000000"],
+        "design":"sponsorHoop",
+        "colors":["000000","FFE110"],
         "sponsor":"Barbasol",
         "sponsorColor":"FCFA68"      
       },
       {
         "type":"Away",
-        "colors":["F8383C","000000"],
+        "colors":["FFE100","000000"],
         "design":"wideHoops",
-        "sponsor":"Alaska Airlines",
+        "sponsor":"Barbasol",
         "sponsorColor":"FFFFFF"
       }
     ]

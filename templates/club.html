@@ -22,6 +22,29 @@
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
                     {% if kit.design == "solid" %}
                       <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                    {% elseif kit.design == "crestStripe" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="120,10 135,10 135,150 120,150" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                    {% elseif kit.design == "diagonalStripeLtoR" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="50,10 65,10 150,150 135,150" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                    {% elseif kit.design == "diagonalStripeRtoL" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="150,10 135,10 50,150 65,150" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                    {% elseif kit.design == "centerStripe" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="90,16 100,20 110,16 110,150 90,150" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                    {% elseif kit.design == "wideCenterStripe" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="80,10 100,20 120,10 120,150 80,150" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                    {% elseif kit.design == "narrowStripes" %}
+                      <defs>
+                        <pattern id="narrowStripes-{{ kit.type }}-{{ season.year }}" x="0" y="0" width="20" height="50" patternUnits="userSpaceOnUse">
+                          <rect x="0" y="0" width="3" height="50" fill="#{{ kit.colors[1] }}" />
+                          <rect x="3" y="0" width="17" height="50" fill="#{{ kit.colors[0] }}" />
+                        </pattern>
+                      </defs>
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#narrowStripes-{{ kit.type }}-{{ season.year }})"></polygon>
                     {% elseif kit.design == "wideStripes" %}
                       <defs>
                         <pattern id="wideStripes-{{ kit.type }}-{{ season.year }}" x="0" y="0" width="40" height="50" patternUnits="userSpaceOnUse">
@@ -30,6 +53,25 @@
                         </pattern>
                       </defs>
                       <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#wideStripes-{{ kit.type }}-{{ season.year }})"></polygon>
+                    {% elseif kit.design == "sponsorHoop" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="50,55 150,55 150,80 50,80" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                    {% elseif kit.design == "narrowHoops" %}
+                      <defs>
+                        <pattern id="narrowHoops-{{ kit.type }}-{{ season.year }}" x="0" y="0" width="50" height="30" patternUnits="userSpaceOnUse">
+                          <rect x="0" y="0" width="50" height="3" fill="#{{ kit.colors[1] }}" />
+                          <rect x="0" y="3" width="50" height="27" fill="#{{ kit.colors[0] }}" />
+                        </pattern>
+                      </defs>
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#narrowHoops-{{ kit.type }}-{{ season.year }})"></polygon>
+                    {% elseif kit.design == "mediumHoops" %}
+                      <defs>
+                        <pattern id="mediumHoops-{{ kit.type }}-{{ season.year }}" x="0" y="0" width="50" height="26" patternUnits="userSpaceOnUse">
+                          <rect x="0" y="0" width="50" height="13" fill="#{{ kit.colors[0] }}" />
+                          <rect x="0" y="13" width="50" height="13" fill="#{{ kit.colors[1] }}" />
+                        </pattern>
+                      </defs>
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#mediumHoops-{{ kit.type }}-{{ season.year }})"></polygon>
                     {% elseif kit.design == "wideHoops" %}
                       <defs>
                         <pattern id="wideHoops-{{ kit.type }}-{{ season.year }}" x="0" y="0" width="50" height="60" patternUnits="userSpaceOnUse">
@@ -38,9 +80,35 @@
                         </pattern>
                       </defs>
                       <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#wideHoops-{{ kit.type }}-{{ season.year }})"></polygon>
+                    {% elseif kit.design == "checkerboard" %}
+                      <defs>
+                        <pattern id="checkerboard-{{ kit.type }}-{{ season.year }}" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                          <rect x="0" y="0" width="20" height="20" fill="#{{ kit.colors[0] }}" />
+                          <rect x="0" y="20" width="20" height="20" fill="#{{ kit.colors[1] }}" />
+                          <rect x="20" y="20" width="20" height="20" fill="#{{ kit.colors[0] }}" />
+                          <rect x="20" y="0" width="20" height="20" fill="#{{ kit.colors[1] }}" />
+                        </pattern>
+                      </defs>
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#checkerboard-{{ kit.type }}-{{ season.year }})"></polygon>
+                    {% elseif kit.design == "gradient" %}
+                      <defs>
+                        <linearGradient id="gradient-{{ kit.type }}-{{ season.year }}" x1="0" x2="0" y1="0" y2="1">
+                          <stop offset="0%" stop-color="#{{ kit.colors[0] }}"/>
+                          <stop offset="100%" stop-color="#{{ kit.colors[1] }}"/>
+                        </linearGradient>
+                      </defs>
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="url(#gradient-{{ kit.type }}-{{ season.year }})"></polygon>
                     {% endif %}
-                    <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
-                    <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+
+                    {% if kit.design == "coloredSleeves" %}
+                      <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+                      <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.colors[1] }}"></polygon>
+
+                    {% else %}
+                      <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                      <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
+                    {% endif %}
                     <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
                     <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
                     <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
