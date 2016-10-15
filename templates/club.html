@@ -19,7 +19,7 @@
               {% for kit in season.kits %}
                 <div>
                   <p>{{ kit.type }} Kit</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 150">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 151">
                     {% if kit.design == "solid" %}
                       <polygon points="50,10 80,10 100,20 120,10 150,10 150,150 50,150" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
                     {% elseif kit.design == "crestStripe" %}
@@ -109,10 +109,10 @@
                       <polygon points="50,10 10,60 40,75 50,60" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
                       <polygon points="150,10 190,60 160,75 150,60" stroke="none" fill="#{{ kit.colors[0] }}"></polygon>
                     {% endif %}
-                    <polyline points="50,10 80,10 100,20 120,10 150,10" stroke="#000000" fill="none"></polyline>
-                    <polyline points="150,150 50,150" stroke="#000000" fill="none"></polyline>
-                    <polyline points="50,10 10,60 40,75 50,60 50,150" stroke="#000000" fill="none"></polyline>
-                    <polyline points="150,10 190,60 160,75 150,60 150,150" stroke="#000000" fill="none"></polyline>
+                    <polyline points="50,10 80,10 100,20 120,10 150,10" stroke-width="2" stroke-linejoin="round" stroke="#000000" fill="none"></polyline>
+                    <polyline points="150,150 50,150" stroke="#000000" stroke-width="2" stroke-linejoin="round" fill="none"></polyline>
+                    <polyline points="50,10 10,60 40,75 50,60 50,150" stroke-width="2" stroke-linejoin="round" stroke="#000000" fill="none"></polyline>
+                    <polyline points="150,10 190,60 160,75 150,60 150,150" stroke-width="2" stroke-linejoin="round" stroke="#000000" fill="none"></polyline>
                     {% if kit.addedDesign is defined %}
                       {{ kit.addedDesign|raw}}
                     {% endif %}
@@ -127,7 +127,3 @@
       </div>
     </body>
 </html>
-
-
-<svg height="10" width="10" xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs> <pattern id="vertical-stripe-5" patternUnits="userSpaceOnUse" width="10" height="10"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nNScgaGVpZ2h0PScxMCcgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg==" x="0" y="0" width="10" height="10"> </image> </pattern> </defs> </svg>
-

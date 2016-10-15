@@ -8,8 +8,8 @@
     "kits":[
       {
         "type":"Primary",
-        "design":"sponsorHoop",
-        "colors":["000000","FFE110"],
+        "design":"checkerboard",
+        "colors":["000000","121212"],
         "sponsor":"Barbasol",
         "sponsorColor":"FCFA68"      
       },
