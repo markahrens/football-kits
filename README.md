@@ -65,9 +65,32 @@ Striped pattern with thin vertical stripes. The first color is for the backgroun
 
 ### Wide Stripes - `wideStripes`
 
-Equally spaced wide vertical stripe pattern. The two colors can be swapped as the stripe width is equal.
+Equally spaced wide vertical stripe pattern. The first color is for the sleeve color and one of the stripes, the second color is for the second stripe.
 
 ### Sponsor Hoop - `sponsorHoop`
 
 Solid background for the kit with a stripe across the chest where the sponsor would be. First color is for the background, second is for the stripe.
 
+### Narrow Hoops - `narrowHoops`
+
+Striped pattern with thin horizontal stripes. The first color is for the background and the second is for the narrow stripes.
+
+### Medium Hoops - `mediumHoops`
+
+Equally spaced horizontal stripe pattern. The first color is for the sleeve color and one of the stripes, the second color is for the second stripe.
+
+### Wide Hoops - `wideHoops`
+
+Equally spaced wide horizontal stripe pattern. The first color is for the sleeve color and one of the stripes, the second color is for the second stripe.
+
+### Checkerboard = `checkerboard`
+
+Square patterns, alternating two colors. The first color is for the sleeve color and one of the squares, the second color is for the second square.
+
+### Gradient = `gradient`
+
+Vertical gradient where the first color is the top of the jersey, the second color is the bottom.
+
+### Colored Sleeves = `coloredSleeves`
+
+Solid background for the kit with sleeves of a different color. The first color is for the background, second is for the sleeve color.
