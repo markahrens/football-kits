@@ -17,7 +17,7 @@ After building the site, the build folder will have the built site. This is help
 
 ## Data
 
-Each club has a file in the `data` folder. The data for each club is as follows:
+Each club has a file in the country code for the club in the `data` folder. The index file for each country can be used for the national team kit.  The data for each club is as follows:
 
 * ID - Unique identifier used for the URL for the club page.
 * Country Code - Two letter country code, generates the club directory and the flag.
