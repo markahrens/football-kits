@@ -83,14 +83,14 @@ Equally spaced horizontal stripe pattern. The first color is for the sleeve colo
 
 Equally spaced wide horizontal stripe pattern. The first color is for the sleeve color and one of the stripes, the second color is for the second stripe.
 
-### Checkerboard = `checkerboard`
+### Checkerboard - `checkerboard`
 
 Square patterns, alternating two colors. The first color is for the sleeve color and one of the squares, the second color is for the second square.
 
-### Gradient = `gradient`
+### Gradient - `gradient`
 
 Vertical gradient where the first color is the top of the jersey, the second color is the bottom.
 
-### Colored Sleeves = `coloredSleeves`
+### Colored Sleeves - `coloredSleeves`
 
 Solid background for the kit with sleeves of a different color. The first color is for the background, second is for the sleeve color.
