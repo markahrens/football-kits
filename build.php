@@ -88,6 +88,12 @@ $indexTemplate = $twig->loadTemplate('index.html');
 $index = $indexTemplate->render(array('clubs' => $data));
 fwrite($fh, $index);
 
+$aboutFile = "build/about.html"; // or .php
+$fh = fopen($aboutFile, 'w'); // or die("error");
+$aboutTemplate = $twig->loadTemplate('about.html');
+$about = $aboutTemplate->render(array());
+fwrite($fh, $about);
+
 function letterLookup($letter){
   $letters = array(
     "A" => "\uD83C\uDDE6",
