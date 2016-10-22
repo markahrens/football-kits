@@ -1,0 +1,25 @@
+{
+  "id":"philadelphia-union",
+  "country":"US",
+  "name":"Philadelphia Union",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideCenterStripe",
+        "colors":["323641","D5AC6D"],
+        "sponsor":"Bimbo",
+        "sponsorColor":"FF393B"      
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Bimbo",
+        "sponsorColor":"FF393B"
+      }
+    ]
+  }]
+}

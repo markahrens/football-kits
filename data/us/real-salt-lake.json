@@ -1,0 +1,25 @@
+{
+  "id":"real-salt-lake",
+  "country":"US",
+  "name":"Real Salt Lake",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["C00019"],
+        "sponsor":"LifeVantage",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["FFFFFF","09122F"],
+        "design":"coloredSleeves",
+        "sponsor":"LifeVantage",
+        "sponsorColor":"09122F"
+      }
+    ]
+  }]
+}

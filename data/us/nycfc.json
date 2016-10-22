@@ -1,0 +1,25 @@
+{
+  "id":"nycfc",
+  "country":"US",
+  "name":"New York City FC",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["CBE0FB"],
+        "sponsor":"Etihad",
+        "sponsorColor":"214079"      
+      },
+      {
+        "type":"Away",
+        "colors":["1B264D"],
+        "design":"solid",
+        "sponsor":"Etihad",
+        "sponsorColor":"FF783D"
+      }
+    ]
+  }]
+}

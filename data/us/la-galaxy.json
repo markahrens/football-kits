@@ -1,0 +1,25 @@
+{
+  "id":"la-galaxy",
+  "country":"US",
+  "name":"LA Galaxy",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"diagonalStripeRtoL",
+        "colors":["FFFFFF","112643"],
+        "sponsor":"Herbalife",
+        "sponsorColor":"112643"      
+      },
+      {
+        "type":"Away",
+        "colors":["112643"],
+        "design":"solid",
+        "sponsor":"Herbalife",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

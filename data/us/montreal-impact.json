@@ -1,0 +1,25 @@
+{
+  "id":"montreal-impact",
+  "country":"US",
+  "name":"Montreal Impact",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["2971CA","000000"],
+        "sponsor":"BMO",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["FFFFFF"],
+        "design":"solid",
+        "sponsor":"BMO",
+        "sponsorColor":"0F53BD"
+      }
+    ]
+  }]
+}

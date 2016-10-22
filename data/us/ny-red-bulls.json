@@ -1,0 +1,25 @@
+{
+  "id":"ny-red-bulls",
+  "country":"US",
+  "name":"New York Red Bulls",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["FFFFFF","800212"],
+        "sponsor":"Red Bull",
+        "sponsorColor":"800212"      
+      },
+      {
+        "type":"Away",
+        "design":"coloredSleeves",
+        "colors":["0D2355","F5AB0B"],
+        "sponsor":"Red Bull",
+        "sponsorColor":"F5AB0B"
+      }
+    ]
+  }]
+}

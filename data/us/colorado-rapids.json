@@ -1,0 +1,25 @@
+{
+  "id":"colorado-rapids",
+  "country":"US",
+  "name":"Colorado Rapids",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["540D1D","FFFFFF"],
+        "sponsor":"Transamerica",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["FECE5F"],
+        "design":"solid",
+        "sponsor":"Transamerica",
+        "sponsorColor":"0028A3"
+      }
+    ]
+  }]
+}

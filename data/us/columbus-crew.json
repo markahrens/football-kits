@@ -15,10 +15,10 @@
       },
       {
         "type":"Away",
-        "colors":["FFE100","000000"],
-        "design":"wideHoops",
+        "colors":["FFFFFF"],
+        "design":"solid",
         "sponsor":"Barbasol",
-        "sponsorColor":"FFFFFF"
+        "sponsorColor":"000000"
       }
     ]
   }]

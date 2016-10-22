@@ -1,0 +1,25 @@
+{
+  "id":"dc-united",
+  "country":"US",
+  "name":"DC United",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["1B181F"],
+        "sponsor":"leidos",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["860009","FFFFFF"],
+        "design":"gradient",
+        "sponsor":"leidos",
+        "sponsorColor":"000000"
+      }
+    ]
+  }]
+}

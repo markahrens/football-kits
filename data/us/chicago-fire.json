@@ -1,0 +1,33 @@
+{
+  "id":"chicago-fire",
+  "country":"US",
+  "name":"Chicago Fire",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"sponsorHoop",
+        "colors":["E7021F","FFFFFF"],
+        "sponsor":"Valspar",
+        "sponsorColor":"617D96"      
+      },
+      {
+        "type":"Away",
+        "colors":["F7F4FB","F7F4FB"],
+        "design":"sponsorHoop",
+        "sponsor":"Valspar",
+        "sponsorColor":"878CA4",
+        "addedDesign":"<polygon points=\"50,50 150,50 150,60 50,60\" stroke=\"none\" fill=\"#85B5D6\"></polygon><polygon points=\"50,85 150,85 150,95 50,95\" stroke=\"none\" fill=\"#85B5D6\"></polygon>"
+      },
+      {
+        "type":"Alternate",
+        "colors":["2A282B","B3CBD4"],
+        "design":"crestStripe",
+        "sponsor":"Valspar",
+        "sponsorColor":"AFAFB2"
+      }
+    ]
+  }]
+}

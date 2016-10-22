@@ -1,0 +1,25 @@
+{
+  "id":"fc-dallas",
+  "country":"US",
+  "name":"FC Dallas",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"narrowHoops",
+        "colors":["F00113","FFFFFF"],
+        "sponsor":"Advocare",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["0144C2","FFFFFF"],
+        "design":"mediumHoops",
+        "sponsor":"Advocare",
+        "sponsorColor":"0144C2"
+      }
+    ]
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "id":"houston-dynamo",
+  "country":"US",
+  "name":"Houston Dynamo",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"gradient",
+        "colors":["FF9A38","FFFFFF"],
+        "sponsor":"bhp billiton",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["27262E"],
+        "design":"solid",
+        "sponsor":"bhp billiton",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

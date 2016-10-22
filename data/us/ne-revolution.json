@@ -1,0 +1,26 @@
+{
+  "id":"ne-revolution",
+  "country":"US",
+  "name":"New England Revolution",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"centerStripe",
+        "colors":["0F1932","F4062F"],
+        "sponsor":"UHC",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "colors":["FFFFFF","9F001B"],
+        "design":"coloredSleeves",
+        "sponsor":"UHC",
+        "sponsorColor":"FFFFFF",
+        "addedDesign":"<polygon points=\"50,60 150,60 150,150 50,150\" stroke=\"none\" fill=\"#9F001B\"></polygon>"
+      }
+    ]
+  }]
+}

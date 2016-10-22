@@ -1,0 +1,25 @@
+{
+  "id":"orlando-city",
+  "country":"US",
+  "name":"Orlando City",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"mediumHoops",
+        "colors":["33167C","6131B3"],
+        "sponsor":"Orlando Health",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "design":"coloredSleeves",
+        "colors":["FFFFFF","10023E"],
+        "sponsor":"Orlando Health",
+        "sponsorColor":"10023E"
+      }
+    ]
+  }]
+}
