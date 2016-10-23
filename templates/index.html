@@ -12,19 +12,18 @@
     </nav> 
     <div id="content">
       <h1>Clubs</h1>
-      <ul>
         {% set country = '' %}
         {% for club in clubs %}
-          {% if club.country != country %}
+          {% if club.country != country %}    
+            </ul>        
             <h3><a href="{{ club.country|lower }}/index.html">{{ club.country|flagify }}</a></h3>
+            <ul>
             {% set country = club.country %}
           {% endif %}
           {% if club.id != 'index' %}
             <li><a href="{{ club.country|lower }}/{{ club.id }}.html">{{ club.name }}</a></li>
           {% endif %}
         {% endfor %}
-        
-      </ul>
     </div>
   </body>
 </html>

@@ -68,7 +68,6 @@ $filter = new Twig_SimpleFilter('flagify', function ($code) {
 $twig->addFilter($filter);
 
 
-
 $clubTemplate = $twig->loadTemplate('club.html');
 
 foreach($data as $club){
