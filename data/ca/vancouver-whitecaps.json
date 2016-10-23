@@ -1,0 +1,25 @@
+{
+  "id":"vancouver-whitecaps",
+  "country":"CA",
+  "name":"Vancouver Whitecaps",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["F0F0F8"],
+        "sponsor":"Bell",
+        "sponsorColor":"09102B"      
+      },
+      {
+        "type":"Away",
+        "design":"gradient",
+        "colors":["B5C6D6","0B2D53"],
+        "sponsor":"Bell",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}
