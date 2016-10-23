@@ -1,0 +1,32 @@
+{
+  "id":"sporting-kc",
+  "country":"US",
+  "name":"Sporting Kansas City",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["9FC6DA"],
+        "sponsor":"Ivy Funds",
+        "sponsorColor":"21354F"      
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Ivy Funds",
+        "sponsorColor":"6B7888"
+      },
+      {
+        "type":"Alternate",
+        "design":"narrowHoops",
+        "colors":["121C37","2E507D"],
+        "sponsor":"Ivy Funds",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "id":"sj-earthquakes",
+  "country":"US",
+  "name":"San Jose Earthquakes",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["007DD9","000000"],
+        "sponsor":"Sutter Health",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "design":"crestStripe",
+        "colors":["FFFFFF","F30419"],
+        "sponsor":"Sutter Health",
+        "sponsorColor":"000000"
+      }
+    ]
+  }]
+}

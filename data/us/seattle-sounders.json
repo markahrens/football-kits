@@ -1,0 +1,32 @@
+{
+  "id":"seattle-sounders",
+  "country":"US",
+  "name":"Seattle Sounders",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["96C958","013F86"],
+        "sponsor":"XBOX",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "design":"narrowStripes",
+        "colors":["FFFFFF","E0DEE5"],
+        "sponsor":"XBOX",
+        "sponsorColor":"000000"
+      },
+      {
+        "type":"Alternate",
+        "design":"solid",
+        "colors":["013D6E"],
+        "sponsor":"XBOX",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

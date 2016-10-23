@@ -26,7 +26,7 @@ $dataFileContents = '{"clubs":
 $files = read_all_files('data');
 
 foreach($files['files'] as $file){
-  if ($file != "data/.DS_Store"){
+  if (strpos($file, '.DS_Store') == false){
     $c = fopen($file, "r") or die("Unable to open file!");
     $dataFileContents .= fread($c,filesize($file)) . ',';
     fclose($c);

@@ -1,0 +1,25 @@
+{
+  "id":"toronto-fc",
+  "country":"CA",
+  "name":"Toronto FC",
+  "seasons":[{
+    "year":"16-17",
+    "league":"mls",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["CE0120"],
+        "sponsor":"BMO",
+        "sponsorColor":"FFFFFF"      
+      },
+      {
+        "type":"Away",
+        "design":"sponsorHoop",
+        "colors":["FFFFFF","FA1827"],
+        "sponsor":"BMO",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}
