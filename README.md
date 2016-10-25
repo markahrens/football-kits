@@ -3,11 +3,13 @@
 Football Kits is a project to create a simple visual representation of
 football kits through the years.
 
-## Requirements
+## Contributing
 
-You will need to have PHP with [Composer](https://getcomposer.org/) installed.
+To add/edit kits, first fork this project to your own account. You can then add and edit the files in the country folders in the data folder. Each club has a unique file with the seasons for the club in it. After making your edits, submit a pull request with your changes and they will be reviewed to be added to the site.
 
 ## Building
+
+You will need to have PHP with [Composer](https://getcomposer.org/) installed.
 
 To build the site, run the following command from the project root:
 
