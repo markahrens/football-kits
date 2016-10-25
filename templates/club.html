@@ -12,7 +12,8 @@
     <body id="club">
       <nav>
         <div>
-          <a href="../index.html">Football Kits</a>
+          <a href="../index.html" class="home-link">Football Kits</a>
+          <a href="../about.html">About</a>
         </div>
       </nav> 
       <div id="content">
@@ -121,7 +122,7 @@
                       {{ kit.addedDesign|raw}}
                     {% endif %}
                     {% if kit.sponsor is defined %}
-                      <text x="100" y="80" text-anchor="middle" font-size="14" fill="#{{ kit.sponsorColor }}";>{{ kit.sponsor }}</text>
+                      <text x="100" y="80" text-anchor="middle" font-weight="600" font-size="14" fill="#{{ kit.sponsorColor }}";>{{ kit.sponsor }}</text>
                     {% endif %}
                   </svg>
                 </div>
