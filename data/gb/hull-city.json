@@ -1,0 +1,26 @@
+{
+  "id":"hull-city",
+  "country":"GB",
+  "name":"Hull City",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Umbro",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["F5A12D","191E22"],
+        "sponsor":"SportPesa",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["191E22"],
+        "sponsor":"SportPesa",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

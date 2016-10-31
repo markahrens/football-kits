@@ -3,8 +3,9 @@
   "country":"US",
   "name":"Portland Timbers",
   "seasons":[{
-    "year":"16-17",
+    "year":"2016",
     "league":"mls",
+    "manufacturer":"Adidas",
     "kits":[
       {
         "type":"Primary",

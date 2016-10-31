@@ -5,6 +5,7 @@
   "seasons":[{
     "year":"16-17",
     "league":"epl",
+    "manufacturer":"Umbro",
     "kits":[
       {
         "type":"Primary",
@@ -31,6 +32,7 @@
   },{
     "year":"15-16",
     "league":"epl",
+    "manufacturer":"Umbro",
     "kits":[
       {
         "type":"Primary",

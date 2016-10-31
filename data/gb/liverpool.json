@@ -1,0 +1,26 @@
+{
+  "id":"liverpool",
+  "country":"GB",
+  "name":"Liverpool",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Puma",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"mediumHoops",
+        "colors":["C6111B","C4101B"],
+        "sponsor":"Standard Chartered",
+        "sponsorColor":"EC902E"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["1D1916"],
+        "sponsor":"Standard Chartered",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

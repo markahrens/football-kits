@@ -1,0 +1,26 @@
+{
+  "id":"crystal-palace",
+  "country":"GB",
+  "name":"Crystal Palace",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Macron",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideCenterStripe",
+        "colors":["9A0225","0247A2"],
+        "sponsor":"Mansion",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"diagonalStripeRtoL",
+        "colors":["E7B843","02459C"],
+        "sponsor":"Mansion",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

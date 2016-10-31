@@ -1,0 +1,26 @@
+{
+  "id":"chelsea",
+  "country":"GB",
+  "name":"Chelsea",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Adidas",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["273F84"],
+        "sponsor":"Yokohama",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"mediumHoops",
+        "colors":["161616","2C2B2C"],
+        "sponsor":"Yokohama",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

@@ -3,8 +3,9 @@
   "country":"ES",
   "name":"Valencia",
   "seasons":[{
-    "year":"16-17",
+    "year":"2016/17",
     "league":"lal",
+    "manufacturer":"Adidas",
     "kits":[
       {
         "type":"Primary",
@@ -24,8 +25,9 @@
     ]
   },
   {
-    "year":"15-16",
+    "year":"2015/16",
     "league":"lal",
+    "manufacturer":"Adidas",
     "kits":[
       {
         "type":"Primary",

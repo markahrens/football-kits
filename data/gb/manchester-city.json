@@ -1,0 +1,26 @@
+{
+  "id":"manchester-city",
+  "country":"GB",
+  "name":"Manchester City",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["5792CD","445E88"],
+        "sponsor":"Etihad",
+        "sponsorColor":"242735"
+      },
+      {
+        "type":"Away",
+        "design":"coloredSleeves",
+        "colors":["1C1C1E","562123"],
+        "sponsor":"Etihad",
+        "sponsorColor":"D2CE30"
+      }
+    ]
+  }]
+}

@@ -1,0 +1,26 @@
+{
+  "id":"leicester-city",
+  "country":"GB",
+  "name":"Leicester City",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Puma",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["1D3D91"],
+        "sponsor":"King Power",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["AE1B1B"],
+        "sponsor":"King Power",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

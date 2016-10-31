@@ -1,0 +1,26 @@
+{
+  "id":"arsenal",
+  "country":"GB",
+  "name":"Arsenal",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Puma",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["A60318","FFFFFF"],
+        "sponsor":"Emirates",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["D0A902"],
+        "sponsor":"Emirates",
+        "sponsorColor":"212833"
+      }
+    ]
+  }]
+}

@@ -1,0 +1,26 @@
+{
+  "id":"burnley",
+  "country":"GB",
+  "name":"Burnley",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Puma",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["4E1822"],
+        "sponsor":"Dafabet",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["93B9CC"],
+        "sponsor":"Dafabet",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

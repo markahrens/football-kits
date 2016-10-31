@@ -5,6 +5,7 @@
   "seasons":[{
     "year":"16-17",
     "league":"fifa",
+    "manufacturer":"Nike",
     "kits":[
       {
         "type":"Primary",

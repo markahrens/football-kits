@@ -1,0 +1,26 @@
+{
+  "id":"bournemouth",
+  "country":"GB",
+  "name":"AFC Bournemouth",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"JD",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["AB161B","171F24"],
+        "sponsor":"Mansion",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"mediumHoops",
+        "colors":["2B57B3","386EC5"],
+        "sponsor":"Mansion",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}
