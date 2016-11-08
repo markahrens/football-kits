@@ -1,0 +1,26 @@
+{
+  "id":"west-ham-united",
+  "country":"GB",
+  "name":"West Ham United",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Adidas",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["641D2E","4FA3BC"],
+        "sponsor":"Betway",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Betway",
+        "sponsorColor":"222222"
+      }
+    ]
+  }]
+}

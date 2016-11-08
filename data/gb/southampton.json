@@ -1,0 +1,28 @@
+{
+  "id":"southampton",
+  "country":"GB",
+  "name":"Southampton",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Under Armour",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["BB0020","FFFFFF"],
+        "sponsor":"Virgin Media",
+        "sponsorColor":"FFFFFF",
+        "addedDesign":"<polygon points=\"50,60 150,60 150,20 50,20\" stroke=\"none\" fill=\"#FFFFFF\"></polygon>"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["1A1F21"],
+        "sponsor":"Virgin Media",
+        "sponsorColor":"FFFFFF",
+        "addedDesign":"<polygon points=\"50,60 150,60 150,20 50,20\" stroke=\"none\" fill=\"#848798\"></polygon>"
+      }
+    ]
+  }]
+}

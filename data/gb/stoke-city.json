@@ -1,0 +1,26 @@
+{
+  "id":"stoke-city",
+  "country":"GB",
+  "name":"Stoke City",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Macron",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["BB0020","FFFFFF"],
+        "sponsor":"Bet365",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["4C80A6"],
+        "sponsor":"Bet365",
+        "sponsorColor":"CECECE"
+      }
+    ]
+  }]
+}

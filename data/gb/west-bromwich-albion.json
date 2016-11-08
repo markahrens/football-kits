@@ -1,0 +1,26 @@
+{
+  "id":"west-bromwich-albion",
+  "country":"GB",
+  "name":"West Bromwich Albion",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Adidas",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["FFFFFF","1F2842"],
+        "sponsor":"K8凯发娱乐",
+        "sponsorColor":"1F2842"
+      },
+      {
+        "type":"Away",
+        "design":"narrowStripes",
+        "colors":["1A181B","379AB9"],
+        "sponsor":"K8凯发娱乐",
+        "sponsorColor":"379AB9"
+      }
+    ]
+  }]
+}

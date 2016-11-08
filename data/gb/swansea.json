@@ -1,0 +1,26 @@
+{
+  "id":"swansea",
+  "country":"GB",
+  "name":"Swansea",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Joma",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"BetEast",
+        "sponsorColor":"258DCB"
+      },
+      {
+        "type":"Away",
+        "design":"gradient",
+        "colors":["02A3B4","292C3B"],
+        "sponsor":"BetEast",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

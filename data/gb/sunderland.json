@@ -1,0 +1,26 @@
+{
+  "id":"sunderland",
+  "country":"GB",
+  "name":"Sunderland",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Adidas",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["BB0020","FFFFFF"],
+        "sponsor":"dafabet",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"diagonalStripeRtoL",
+        "colors":["FFFFFF","606F9C"],
+        "sponsor":"dafabet",
+        "sponsorColor":"000000"
+      }
+    ]
+  }]
+}

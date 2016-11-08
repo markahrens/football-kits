@@ -1,0 +1,26 @@
+{
+  "id":"watford",
+  "country":"GB",
+  "name":"Watford",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Dryworld",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["FDE928"],
+        "sponsor":"138.com",
+        "sponsorColor":"222222"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"138.com",
+        "sponsorColor":"222222"
+      }
+    ]
+  }]
+}

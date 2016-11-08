@@ -1,0 +1,26 @@
+{
+  "id":"manchester-united",
+  "country":"GB",
+  "name":"Manchester United",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Adidas",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["900B10"],
+        "sponsor":"Chevrolet",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["044392"],
+        "sponsor":"Chevrolet",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

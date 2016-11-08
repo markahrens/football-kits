@@ -1,0 +1,27 @@
+{
+  "id":"tottenham-hotspur",
+  "country":"GB",
+  "name":"Tottenham Hotspur",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"epl",
+    "manufacturer":"Under Armour",
+   "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"AIA",
+        "sponsorColor":"BD283B",
+        "addedDesign":"<polygon points=\"50,10 80,10 100,20 120,10 150,10 150,35 50,35\" stroke=\"none\" fill=\"#1F2D42\"></polygon>"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["162738"],
+        "sponsor":"AIA",
+        "sponsorColor":"DEAD68"
+      }
+    ]
+  }]
+}
