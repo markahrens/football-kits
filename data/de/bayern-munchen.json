@@ -1,0 +1,33 @@
+{
+  "id":"bayern-munchen",
+  "country":"DE",
+  "name":"Bayern Munchen",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Adidas",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"narrowHoops",
+        "colors":["CE192A","BD0B17"],
+        "sponsor":"T",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["646168"],
+        "sponsor":"T",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"T",
+        "sponsorColor":"782B47"
+      }
+    ]
+  }]
+}

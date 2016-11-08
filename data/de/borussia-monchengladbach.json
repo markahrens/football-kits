@@ -1,0 +1,26 @@
+{
+  "id":"borussia-monchengladbach",
+  "country":"DE",
+  "name":"Borussia Monchengladbach",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Kappa",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideHoops",
+        "colors":["FFFFFF","322F36"],
+        "sponsor":"Postbank",
+        "sponsorColor":"475681"
+      },
+      {
+        "type":"Away",
+        "design":"wideHoops",
+        "colors":["01C65C","DEF4E6"],
+        "sponsor":"Postbank",
+        "sponsorColor":"475681"
+      }
+    ]
+  }]
+}

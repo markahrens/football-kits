@@ -1,0 +1,26 @@
+{
+  "id":"bayer-leverkusen",
+  "country":"DE",
+  "name":"Bayer Leverkusen",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Jako",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"narrowHoops",
+        "colors":["161513","9E1518"],
+        "sponsor":"LG",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"diagonalStripeRtoL",
+        "colors":["F53948","514750"],
+        "sponsor":"Barmenia",
+        "sponsorColor":"D0D3D8"
+      }
+    ]
+  }]
+}

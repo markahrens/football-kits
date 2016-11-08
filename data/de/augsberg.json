@@ -1,0 +1,33 @@
+{
+  "id":"augsberg",
+  "country":"DE",
+  "name":"Augsberg",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"WWK",
+        "sponsorColor":"046639"
+      },
+      {
+        "type":"Away",
+        "design":"mediumStripes",
+        "colors":["23292D","044623"],
+        "sponsor":"WWK",
+        "sponsorColor":"D0D3D8"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["C3EA77"],
+        "sponsor":"WWK",
+        "sponsorColor":"000000"
+      }
+    ]
+  }]
+}

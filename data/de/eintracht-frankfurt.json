@@ -1,0 +1,33 @@
+{
+  "id":"eintracht-frankfurt",
+  "country":"DE",
+  "name":"Eintracht Frankfurt",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideStripes",
+        "colors":["FFFFFF","41414E"],
+        "sponsor":"Krombacher",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["CF1B2E"],
+        "sponsor":"Krombacher",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["FED963"],
+        "sponsor":"Krombacher",
+        "sponsorColor":"3E1E1E"
+      }
+    ]
+  }]
+}

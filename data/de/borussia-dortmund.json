@@ -1,0 +1,33 @@
+{
+  "id":"borussia-dortmund",
+  "country":"DE",
+  "name":"Borussia Dortmund",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Puma",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"centerStripe",
+        "colors":["FCDE02","0C0809"],
+        "sponsor":"Evonik",
+        "sponsorColor":"76234E"
+      },
+      {
+        "type":"Away",
+        "design":"narrowHoops",
+        "colors":["49484E","FCDE02"],
+        "sponsor":"Evonik",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Champions League",
+        "design":"solid",
+        "colors":["FCDE02"],
+        "sponsor":"Evonik",
+        "sponsorColor":"76234E"
+      }
+    ]
+  }]
+}
