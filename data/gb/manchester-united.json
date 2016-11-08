@@ -20,6 +20,13 @@
         "colors":["044392"],
         "sponsor":"Chevrolet",
         "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Chevrolet",
+        "sponsorColor":"0E0C0E"
       }
     ]
   }]

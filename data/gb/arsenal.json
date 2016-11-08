@@ -11,15 +11,22 @@
         "type":"Primary",
         "design":"coloredSleeves",
         "colors":["A60318","FFFFFF"],
-        "sponsor":"Emirates",
+        "sponsor":"Fly Emirates",
         "sponsorColor":"FFFFFF"
       },
       {
         "type":"Away",
         "design":"solid",
         "colors":["D0A902"],
-        "sponsor":"Emirates",
+        "sponsor":"Fly Emirates",
         "sponsorColor":"212833"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["1B192E"],
+        "sponsor":"Fly Emirates",
+        "sponsorColor":"D5F609"
       }
     ]
   }]

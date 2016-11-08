@@ -20,6 +20,13 @@
         "colors":["2B57B3","386EC5"],
         "sponsor":"Mansion",
         "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["ADDD9A"],
+        "sponsor":"Mansion",
+        "sponsorColor":"222222"
       }
     ]
   }]

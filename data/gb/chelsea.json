@@ -20,6 +20,13 @@
         "colors":["161616","2C2B2C"],
         "sponsor":"Yokohama",
         "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Yokohama",
+        "sponsorColor":"162F9F"
       }
     ]
   }]

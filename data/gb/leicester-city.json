@@ -21,6 +21,14 @@
         "sponsor":"King Power",
         "sponsorColor":"FFFFFF"
       }
+      ,
+      {
+        "type":"Third",
+        "design":"narrowStripes",
+        "colors":["FFFFFF","3B38E5"],
+        "sponsor":"King Power",
+        "sponsorColor":"3B38E5"
+      }
     ]
   }]
 }

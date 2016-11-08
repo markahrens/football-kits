@@ -21,6 +21,13 @@
         "colors":["162738"],
         "sponsor":"AIA",
         "sponsorColor":"DEAD68"
+      },
+      {
+        "type":"Third",
+        "design":"narrowStripes",
+        "colors":["DEAD68","162738"],
+        "sponsor":"AIA",
+        "sponsorColor":"162738"
       }
     ]
   }]
