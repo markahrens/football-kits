@@ -1,0 +1,26 @@
+{
+  "id":"werder-bremen",
+  "country":"DE",
+  "name":"Werder Bremen",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"wideHoops",
+        "colors":["068F6A","D6F4EF"],
+        "sponsor":"Weisenhof",
+        "sponsorColor":"D65745"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["432D76"],
+        "sponsor":"Weisenhof",
+        "sponsorColor":"D65745"
+      }
+    ]
+  }]
+}

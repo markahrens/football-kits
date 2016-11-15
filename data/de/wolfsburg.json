@@ -1,0 +1,33 @@
+{
+  "id":"wolfsburg",
+  "country":"DE",
+  "name":"Wolfsburg",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["86BE5F"],
+        "sponsor":"VW",
+        "sponsorColor":"B9B9CB"
+      },
+      {
+        "type":"Away",
+        "design":"narrowStripes",
+        "colors":["FFFFFF","86BE5F"],
+        "sponsor":"VW",
+        "sponsorColor":"063B79"
+      },
+      {
+        "type":"Third",
+        "design":"narrowStripes",
+        "colors":["262E41","FFFFFF"],
+        "sponsor":"VW",
+        "sponsorColor":"B9B9CB"
+      }
+    ]
+  }]
+}

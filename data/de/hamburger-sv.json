@@ -1,0 +1,26 @@
+{
+  "id":"hamburger-sv",
+  "country":"DE",
+  "name":"Hamburger SV",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Adidas",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"narrowHoops",
+        "colors":["D8D9DD","CDCED3"],
+        "sponsor":"Fly Emirites",
+        "sponsorColor":"AA070A"
+      },
+      {
+        "type":"Away",
+        "design":"coloredSleeves",
+        "colors":["FF3A9B","0D163F"],
+        "sponsor":"Fly Emirites",
+        "sponsorColor":"FFFFFF"
+      }
+    ]
+  }]
+}

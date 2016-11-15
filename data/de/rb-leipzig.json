@@ -1,0 +1,26 @@
+{
+  "id":"rb-leipzig",
+  "country":"DE",
+  "name":"Red Bull Leipzig",
+  "seasons":[{
+    "year":"2016",
+    "league":"mls",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Red Bull",
+        "sponsorColor":"800212"      
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["0D2355"],
+        "sponsor":"Red Bull",
+        "sponsorColor":"F5AB0B"
+      }
+    ]
+  }]
+}

@@ -1,0 +1,33 @@
+{
+  "id":"hoffenheim",
+  "country":"DE",
+  "name":"Hoffenheim",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Umbro",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["0B81D3","151924"],
+        "sponsor":"SAP",
+        "sponsorColor":"E1E4E7"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["E4E4EF"],
+        "sponsor":"SAP",
+        "sponsorColor":"5BC1E6"
+      },
+      {
+        "type":"Third",
+        "design":"coloredSleeves",
+        "colors":["FF3640","7B051F"],
+        "sponsor":"SAP",
+        "sponsorColor":"E1E4E7"
+      }
+    ]
+  }]
+}

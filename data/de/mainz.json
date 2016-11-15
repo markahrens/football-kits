@@ -1,0 +1,33 @@
+{
+  "id":"mainz",
+  "country":"DE",
+  "name":"Mainz",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Umbro",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"solid",
+        "colors":["D20318"],
+        "sponsor":"Kömmerling",
+        "sponsorColor":"FFFFFF"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"Kömmerling",
+        "sponsorColor":"191B1A"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["D9E67A"],
+        "sponsor":"Kömmerling",
+        "sponsorColor":"191B1A"
+      }
+    ]
+  }]
+}

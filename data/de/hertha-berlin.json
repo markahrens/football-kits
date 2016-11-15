@@ -1,0 +1,33 @@
+{
+  "id":"hertha-berlin",
+  "country":"DE",
+  "name":"Hertha Berlin",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Nike",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["FFFFFF","131939"],
+        "sponsor":"bet-at-home.com",
+        "sponsorColor":"1C1F46"
+      },
+      {
+        "type":"Away",
+        "design":"solid",
+        "colors":["FFFFFF"],
+        "sponsor":"bet-at-home.com",
+        "sponsorColor":"1C1F46"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["F14F81"],
+        "sponsor":"bet-at-home.com",
+        "sponsorColor":"1C1F46"
+      }
+    ]
+  }]
+}

@@ -16,8 +16,8 @@
       },
       {
         "type":"Away",
-        "colors":["FFFFFF"],
-        "design":"solid",
+        "design":"wideHoops",
+        "colors":["FFFFFF","EDEDF6"],
         "sponsor":"BMO",
         "sponsorColor":"0F53BD"
       }

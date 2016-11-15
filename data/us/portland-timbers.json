@@ -17,8 +17,8 @@
       },
       {
         "type":"Away",
-        "colors":["F8383C","000000"],
         "design":"wideHoops",
+        "colors":["000000","F8383C"],
         "sponsor":"Alaska Airlines",
         "sponsorColor":"FFFFFF"
       }

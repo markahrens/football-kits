@@ -67,7 +67,6 @@ $filter = new Twig_SimpleFilter('flagify', function ($code) {
 });
 $twig->addFilter($filter);
 
-
 $clubTemplate = $twig->loadTemplate('club.html');
 
 foreach($data as $club){
@@ -92,6 +91,26 @@ $fh = fopen($aboutFile, 'w'); // or die("error");
 $aboutTemplate = $twig->loadTemplate('about.html');
 $about = $aboutTemplate->render(array());
 fwrite($fh, $about);
+
+$years = Array();
+
+foreach($data as $club){
+  foreach($club["seasons"] as $season){
+    if($years[substr($season['year'], 0,4)][$season['manufacturer']]){
+      $years[substr($season['year'], 0,4)][$season['manufacturer']]++;
+    }
+    else{
+      $years[substr($season['year'], 0,4)][$season['manufacturer']] = 1;
+    }
+  }
+}
+
+$statsFile = "build/stats.html"; // or .php
+$fh = fopen($statsFile, 'w'); // or die("error");
+$statsTemplate = $twig->loadTemplate('stats.html');
+$stats = $statsTemplate->render(array('years' => $years));
+fwrite($fh, $stats);
+
 
 function letterLookup($letter){
   $letters = array(
@@ -124,6 +143,8 @@ function letterLookup($letter){
   );
   return $letters[$letter];
 }
+
+
 
 function read_all_files($root = '.'){ 
   $files  = array('files'=>array(), 'dirs'=>array()); 

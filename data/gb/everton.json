@@ -3,7 +3,7 @@
   "country":"GB",
   "name":"Everton FC",
   "seasons":[{
-    "year":"16-17",
+    "year":"2016/17",
     "league":"epl",
     "manufacturer":"Umbro",
     "kits":[
@@ -30,7 +30,7 @@
       }
     ]
   },{
-    "year":"15-16",
+    "year":"2015/16",
     "league":"epl",
     "manufacturer":"Umbro",
     "kits":[

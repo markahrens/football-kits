@@ -1,0 +1,33 @@
+{
+  "id":"freiburg",
+  "country":"DE",
+  "name":"Freiburg",
+  "seasons":[{
+    "year":"2016/17",
+    "league":"bundesliga",
+    "manufacturer":"Hummel",
+    "kits":[
+      {
+        "type":"Primary",
+        "design":"coloredSleeves",
+        "colors":["DE2C48","1D1D1F"],
+        "sponsor":"Schwarzwaldmilch",
+        "sponsorColor":"F6DC37"
+      },
+      {
+        "type":"Away",
+        "design":"wideCenterStripe",
+        "colors":["E6E6E8","241E20"],
+        "sponsor":"Schwarzwaldmilch",
+        "sponsorColor":"F6DC37"
+      },
+      {
+        "type":"Third",
+        "design":"solid",
+        "colors":["3D6842"],
+        "sponsor":"Schwarzwaldmilch",
+        "sponsorColor":"F6DC37"
+      }
+    ]
+  }]
+}
